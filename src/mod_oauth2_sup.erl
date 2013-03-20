@@ -1,5 +1,5 @@
 
--module(myapp_sup).
+-module(mod_oauth2_sup).
 
 -behaviour(supervisor).
 
