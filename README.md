@@ -4,7 +4,7 @@ mod_oauth2
 Act as an oauth2 client to authenticate against a oauth2 procotol server.
 Unfornately the oauth2 protocol server is not starndard complaint
 
-Author: Edward Tsang <edwardt.tril@gmail.com>
+Author: Edward Tsang <>
 
 Motivation
 -------------
