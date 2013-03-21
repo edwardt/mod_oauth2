@@ -1,4 +1,4 @@
--module(mod_oauth2_app).
+-module(mmod_auth_spark_app).
 
 -behaviour(application).
 
@@ -10,7 +10,7 @@
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
-    mod_oauth2_sup:start_link().
+    mod_auth_spark_sup:start_link().
 
 stop(_State) ->
     ok.

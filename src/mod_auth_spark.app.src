@@ -1,4 +1,4 @@
-{application, myapp,
+{application, mod_auth_spark,
  [
   {description, ""},
   {vsn, "1"},
@@ -7,6 +7,6 @@
                   kernel,
                   stdlib
                  ]},
-  {mod, { mod_auth_app, []}},
+  {mod, { mod_auth_spark_app, []}},
   {env, []}
  ]}.

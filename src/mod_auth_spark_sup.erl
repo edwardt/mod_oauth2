@@ -1,5 +1,5 @@
 
--module(mod_oauth2_sup).
+-module(mod_auth_spark_sup).
 
 -behaviour(supervisor).
 
