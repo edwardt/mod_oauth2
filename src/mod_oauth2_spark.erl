@@ -15,7 +15,16 @@
 -include_lib("kernel/include/file.hrl").
 -endif.
 
--export([parse/2, usage/2, usage/3, usage/4]).
+-include("ejabberd.hrl").
+-include("jlib.hrl").
+-include("web/ejabberd_http.hrl").
+-include("web/ejabberd_web_admin.hrl").
+
+
+%% External interface methods
+-export([process/2]).
+
+-spec limited_fmt(string(), list(), integer()) -> iolist().
 
 
 -ifdef(TEST).
